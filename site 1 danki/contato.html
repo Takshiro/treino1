@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="keywords" content="palavras chaves aqui">
+  <title>Document</title>
+  <link href="style.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/b0bd75e0fb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="logo">
+        <h2>logo.marca</h2>
+      </div>
+      <nav class="menu-desktop">
+        <ul>
+          <li> <a href="index.html"> home</a></li>
+          <li> <a href="sobre.html"> sobre </a></li>
+          <li class="selected"> <a href="contato.html"> contato</a></li>
+
+
+        </ul>
+      </nav>
+
+      <nav class="menu-mobile">
+        <h2><i class="fa fa-bars"></i></h2>
+        <ul>
+          <li class="selected"> <a href="index.html"> home</a></li>
+          <li> <a href="sobre.html"> sobre </a></li>
+          <li> <a href=""> contato</a></li>
+
+
+        </ul>
+      </nav>
+
+
+      <div class="clear"></div>
+    </div>
+  </header>
+  <section style="background-image: url(img/img5.jfif);" class="title-page">
+    <div class="overlay-title-page"></div>
+    <div class="container">
+      <h2 style="font-size:30px;">Fale Conosco</h2>
+      <p> Está parte do site é destinada a você pdoer mandar uma mensagem , ou entrar em contato com o fundador deste site  </p>
+    </div>
+  </section>
+
+
+  <section   class="container-contato">
+  <div class="inscricao-form-contato">
+      <input type="text" placeholder="Nome">
+    </div>
+
+  <div class="inscricao-form-contato">
+  
+      <input type="text" placeholder="Email">
+    </div>
+
+    <div class="inscricao-form-contato">
+      <input style="height: 150px; text-align: center;" type="text" placeholder="Escreva sua Mensagem">
+    </div>
+
+
+  </section>
+
+
+
+
+
+  <footer class="footer1">
+    <div class="container">
+      <div class="w33">
+        <h3>Onde estamos?</h3>
+        <p><i class="fas fa-phone-alt"></i>(48)9999-0086 </p>
+        <p><i class="fas fa-map-pin"></i>Rua Silva amenodorime 223 - Santa Catarina </p>
+      </div>
+
+      <div class="w33">
+        <h3>Links uteis</h3>
+        <a href="">contato</a>
+        <p><a href="">sobre</a>
+      </div>
+
+      <div class="w33">
+        <h3>Conete-se conosco</h3>
+        <div class="group-icons">
+          <a href=""><i class="fab fa-facebook-square"></i></a>
+          <a href=""> <i class="fab fa-instagram-square"></i></a>
+        </div>
+      </div>
+      <div class="clear"></div>
+    </div>
+  </footer>
+
+
+  <footer class="footer2">
+    <div class="container">
+      <p>Todos os diretos reservados</p>
+    </div>
+  </footer>
+
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $('nav.menu-mobile h2').click(function () {
+      $('nav.menu-mobile ul').slideToggle();
+
+    });
+  </script>
+</body>
+
+</html>

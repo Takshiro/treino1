@@ -1,0 +1,260 @@
+*{padding:0;
+  margin: 0;
+  box-sizing: border-box; 
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;}
+
+
+header{padding: 8px;background-color: white;}
+
+
+.logo{float: left; color:black; }
+
+.logo h2{font-weight: normal;font-size: 30px;}
+
+
+nav.menu-mobile{display: none;float: right;}
+
+nav.menu-mobile ul{ display: none; 
+  width: 100%; 
+  background: white;
+  position: absolute;
+  left: 0; top:50px ;z-index: 999;
+  text-align: center;font-size: x-large;}
+
+nav.menu-mobile h2{cursor: pointer;}
+
+
+nav.menu-mobile li{padding: 8px 0; border-bottom: 1px solid black;}
+
+nav.menu-mobile a{color: black;text-decoration: none;}
+nav.menu-mobile a:hover{color: #52aaa7;}
+
+nav.menu-mobile li.selected{font-weight: bold;}
+
+
+
+nav.menu-desktop li.selected{font-weight: bold;}
+
+.menu-desktop{float: right;background-color: white;}
+
+nav.menu-desktop li{display: inline-block; padding: 0 10px;background-color: white; }
+
+nav.menu-desktop ul{position: relative; top: 8px;background-color: white; color: black;font-size: larger; }
+
+nav.menu-desktop a {text-decoration: none; color :black }
+
+nav.menu-desktop a:hover{text-decoration: underline;color:#52aaa7;}
+
+/*classes axuliares*/
+
+.container{max-width: 1280px; margin: 0 auto; padding: 0 2%;}
+.clear{clear: both;}
+.w50{width: 50%;float: left;}
+.w33{float: left; width: 33.3%;}
+.center{text-align: center;}
+
+
+
+/* MAIN BG */
+section.main-bg{
+  width: 100%;
+  padding: 140px 0 200px 0;
+  background-image:url('img/imagen.png');
+  background-repeat:no-repeat ; background-size: cover; 
+  background-position: center;
+  text-align: center; position: relative; }
+  
+section.main-bg > .container{position: relative; z-index: 2;}
+
+
+
+
+.overlay{position: absolute;width: 100%; height: 100%; background:rgba(0,0,0,0.5) ;left: 0;top: 0; z-index: 2;}
+
+
+section.main-bg h2{color: #52aaa7;font-size: 40px; font-weight: normal;margin-top: -30px;}
+
+section.main-bg p{font-weight: lighter;
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  margin-top: 50px; }
+
+section.diferenciais{padding: 30px 0;text-align: center;}
+
+
+
+.line-text{position: relative;display: inline-block ;}
+
+.line-text div{position: absolute; left: 0; top: 0 ; width: 200px;;height: 3px; background:#52aaa7;}
+
+.line-text h2{ font-weight: normal; font-size: 40px;color:#52aaa7 }
+
+
+
+.icone-diferenciais{margin-top: 33px;}
+
+
+.box-icone-single{float: left;width: 33.3%;padding: 0 10px;}
+
+.box-icone-single h2 {color: #8a6b62;font-size: 40px;}
+
+
+.box-icone-single p{color: #646464;font-weight: lighter;font-size: 20px;}
+
+.sobre-equipe{padding: 30px 0 ;background:rgb(225,225,225) ;}
+
+.sobre-equipe > .container {display: flex;}
+
+.sobre-container p{font-size: 17px;}
+
+
+.img-avatar{display: inline-block;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: 50% 100%;}
+
+section.inscricao{background-color: #52aaa7;padding: 20px 0;}
+
+h2.inscricao-texto  {
+  color: white;
+  font-size: 30px;
+}
+
+
+.inscricao-form input[type=text] { width: calc(100% - 124px);
+  height:40px; 
+  background-color: white;
+  border: 1px solid #ccc; 
+  display: inline-block;}
+
+
+
+  .inscricao-form input[type=submit] { width:120px; 
+  height:40px; 
+  background-color: #1d6c64;
+  display: inline-block;
+  cursor: pointer;
+  border: 0;
+  color: white;
+  font-weight: bold;
+}
+    
+section.cards{padding: 30px 0}
+
+.card-single{width: 33.3%;float: left;
+padding: 50px;}
+
+.card-single h3{font-size: 19px;margin-top: 5px;}
+
+
+.card-single p{font-weight: lighter;margin:10px 0;
+   font-size: 16px;
+   border-bottom: 2px solid #ccc;
+  padding-bottom: 20px;}
+
+
+
+
+.card-single img{width: 100%;height: 200px; }
+
+
+footer.footer1{background-color: #52aaa7;padding: 20px 0;color: white;}
+
+footer.footer1 h3{font-weight: normal;font-size: 25px;}
+
+footer.footer1 p {margin-top: 8px;font-weight: lighter;font-size: 18px;}
+
+footer.footer1 a{display: block;color: white;}
+
+div.group-icons a{display: inline-block;margin: 15px 10px; font-size:35px ;}
+
+
+footer.footer2{background-color: #237a70;
+  text-align: center;
+  color: white;
+  padding: 30px 0;
+  font-size: x-large;
+  bottom: 0;
+  position: relative;
+  width: 100%;
+  }
+
+
+/* PAGINA SOBRE PAGINA SOBRE PAGINA SOBRE*/
+
+section.title-page{width: 100%;;
+padding: 30px ;
+min-height: 150px;
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;position:relative}
+
+section.title-page > .container{position: relative; z-index: 101;}
+
+section.title-page h2 {color: #44D4C5;font: size 35px;;font-weight: normal;}
+
+section.title-page p {font-weight: lighter;font-size: 16px;color: white;margin-top: 20px;}
+
+
+.overlay-title-page{position:absolute;
+  top: 0;
+  left: 0;
+  z-index: 100 ;
+  width: 100%;
+  height: 100%;
+  background:rgba(0,0,0,0.3);}
+
+/* CONTATO CONTATO CONTATO */
+
+
+.container-contato{    max-width: 1280px;
+  margin: 62px auto;
+  padding: 57px 2%;
+  background:#52aaa7;
+  border: 1px;
+  border-radius: 14px}
+
+.inscricao-form-contato input[type=text] { width: calc(80%);
+  height:40px; 
+  background-color: white;
+  border: 1px solid gainsboro; border-radius: 3px;
+  display:block;
+margin-left: 10%;margin-top: 1%;margin-bottom:1%;}
+
+
+
+
+::placeholder{font-size: 20px; text-indent: 2%;color: black;font-weight: bolder;}
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+.box-icone-single {width: 100%;}
+
+.w50,.w33{width: 100%; margin-bottom: 20px;}
+
+.card-single{width: 100%;}
+
+footer.footer1 {text-align: center;}
+
+nav.menu-desktop{display: none;}
+
+nav.menu-mobile{display:block ;}
+
+.inscricao-form-contato input[type=text] { width: calc(80%);
+  height:40px; 
+  background-color: white;
+  border: 1px solid #ccc; 
+  display: inline-block;
+margin-left: 10%;margin-top: 1%;margin-bottom:1%;}
+  }
+
